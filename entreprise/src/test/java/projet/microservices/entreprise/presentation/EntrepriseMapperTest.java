@@ -1,7 +1,6 @@
 package projet.microservices.entreprise.presentation;
 
 import java.util.Arrays;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertIterableEquals;
@@ -26,7 +25,7 @@ class EntrepriseMapperTest {
         // Assert
         assertEquals("Microsoft", entreprise.getNom());
         assertIterableEquals(
-                List.of(1L, 2L, 3L),
+                Arrays.asList(1, 2, 3),
                 entreprise.getIdEmployes()
         );
     }

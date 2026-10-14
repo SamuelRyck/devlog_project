@@ -1,0 +1,317 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< projet.microservices:entreprise >-------------------
+[INFO] Building entreprise 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ entreprise ---
+[INFO] Deleting C:\Users\samue\OneDrive\Documents\IMT\SISC\TP CI_CD\devlog_project\entreprise\target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.495 s
+[INFO] Finished at: 2026-10-14T10:07:29+02:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< projet.microservices:entreprise >-------------------
+[INFO] Building entreprise 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- dependency:3.10.0:resolve (default-cli) @ entreprise ---
+[INFO] 
+[INFO] The following files have been resolved:
+[INFO]    org.springframework.boot:spring-boot-starter:jar:4.1.1:compile -- module spring.boot.starter [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-logging:jar:4.1.1:compile -- module spring.boot.starter.logging [auto]
+[INFO]    ch.qos.logback:logback-classic:jar:1.5.38:compile -- module ch.qos.logback.classic
+[INFO]    ch.qos.logback:logback-core:jar:1.5.38:compile -- module ch.qos.logback.core
+[INFO]    org.apache.logging.log4j:log4j-to-slf4j:jar:2.25.5:compile -- module org.apache.logging.log4j.to.slf4j
+[INFO]    org.apache.logging.log4j:log4j-api:jar:2.25.5:compile -- module org.apache.logging.log4j
+[INFO]    org.slf4j:jul-to-slf4j:jar:2.0.18:compile -- module jul.to.slf4j
+[INFO]    org.springframework.boot:spring-boot-autoconfigure:jar:4.1.1:compile -- module spring.boot.autoconfigure [auto]
+[INFO]    jakarta.annotation:jakarta.annotation-api:jar:3.0.0:compile -- module jakarta.annotation
+[INFO]    org.yaml:snakeyaml:jar:2.6:compile -- module org.yaml.snakeyaml
+[INFO]    org.springframework.boot:spring-boot-starter-web:jar:4.1.1:compile -- module spring.boot.starter.web [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-jackson:jar:4.1.1:compile -- module spring.boot.starter.jackson [auto]
+[INFO]    org.springframework.boot:spring-boot-jackson:jar:4.1.1:compile -- module spring.boot.jackson [auto]
+[INFO]    tools.jackson.core:jackson-databind:jar:3.1.5:compile -- module tools.jackson.databind
+[INFO]    tools.jackson.core:jackson-core:jar:3.1.5:compile -- module tools.jackson.core
+[INFO]    org.springframework.boot:spring-boot-starter-tomcat:jar:4.1.1:compile -- module spring.boot.starter.tomcat [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-tomcat-runtime:jar:4.1.1:compile -- module spring.boot.starter.tomcat.runtime [auto]
+[INFO]    org.springframework.boot:spring-boot-web-server:jar:4.1.1:compile -- module spring.boot.web.server [auto]
+[INFO]    org.apache.tomcat.embed:tomcat-embed-core:jar:11.0.24:compile -- module org.apache.tomcat.embed.core
+[INFO]    org.apache.tomcat.embed:tomcat-embed-el:jar:11.0.24:compile -- module org.apache.tomcat.embed.el
+[INFO]    org.apache.tomcat.embed:tomcat-embed-websocket:jar:11.0.24:compile -- module org.apache.tomcat.embed.websocket
+[INFO]    org.springframework.boot:spring-boot-tomcat:jar:4.1.1:compile -- module spring.boot.tomcat [auto]
+[INFO]    org.springframework.boot:spring-boot-http-converter:jar:4.1.1:compile -- module spring.boot.http.converter [auto]
+[INFO]    org.springframework:spring-web:jar:7.0.9:compile -- module spring.web [auto]
+[INFO]    org.springframework:spring-beans:jar:7.0.9:compile -- module spring.beans [auto]
+[INFO]    io.micrometer:micrometer-observation:jar:1.17.1:compile -- module micrometer.observation [auto]
+[INFO]    io.micrometer:micrometer-commons:jar:1.17.1:compile -- module micrometer.commons [auto]
+[INFO]    org.springframework.boot:spring-boot-webmvc:jar:4.1.1:compile -- module spring.boot.webmvc [auto]
+[INFO]    org.springframework.boot:spring-boot-servlet:jar:4.1.1:compile -- module spring.boot.servlet [auto]
+[INFO]    org.springframework:spring-webmvc:jar:7.0.9:compile -- module spring.webmvc [auto]
+[INFO]    org.springframework:spring-aop:jar:7.0.9:compile -- module spring.aop [auto]
+[INFO]    org.springframework:spring-expression:jar:7.0.9:compile -- module spring.expression [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-jersey:jar:4.1.1:compile -- module spring.boot.starter.jersey [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-validation:jar:4.1.1:compile -- module spring.boot.starter.validation [auto]
+[INFO]    org.springframework.boot:spring-boot-validation:jar:4.1.1:compile -- module spring.boot.validation [auto]
+[INFO]    org.springframework.boot:spring-boot-jackson2:jar:4.1.1:compile -- module spring.boot.jackson2 [auto]
+[INFO]    com.fasterxml.jackson.core:jackson-databind:jar:2.21.5:compile -- module com.fasterxml.jackson.databind
+[INFO]    com.fasterxml.jackson.core:jackson-annotations:jar:2.21:compile -- module com.fasterxml.jackson.annotation
+[INFO]    com.fasterxml.jackson.core:jackson-core:jar:2.21.5:compile -- module com.fasterxml.jackson.core
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.21.5:compile -- module com.fasterxml.jackson.datatype.jdk8
+[INFO]    com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.21.5:compile -- module com.fasterxml.jackson.datatype.jsr310
+[INFO]    com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.21.5:compile -- module com.fasterxml.jackson.module.paramnames
+[INFO]    org.springframework.boot:spring-boot-jersey:jar:4.1.1:compile -- module spring.boot.jersey [auto]
+[INFO]    org.glassfish.jersey.containers:jersey-container-servlet:jar:4.0.2:compile -- module org.glassfish.jersey.container.servlet
+[INFO]    org.glassfish.jersey.core:jersey-server:jar:4.0.2:compile -- module org.glassfish.jersey.core.server
+[INFO]    org.glassfish.jersey.core:jersey-client:jar:4.0.2:compile -- module org.glassfish.jersey.core.client
+[INFO]    org.glassfish.jersey.ext:jersey-spring6:jar:4.0.2:compile -- module org.glassfish.jersey.ext.spring6 [auto]
+[INFO]    org.glassfish.jersey.inject:jersey-hk2:jar:4.0.2:compile -- module org.glassfish.jersey.inject.hk2
+[INFO]    org.glassfish.hk2:hk2-locator:jar:4.0.0-M3:compile -- module org.glassfish.hk2.locator [auto]
+[INFO]    org.glassfish.hk2.external:aopalliance-repackaged:jar:4.0.0-M3:compile -- module org.aopalliance [auto]
+[INFO]    org.javassist:javassist:jar:3.30.2-GA:compile -- module org.javassist [auto]
+[INFO]    org.glassfish.hk2:hk2:jar:4.0.0-M3:compile -- module hk2 (auto)
+[INFO]    org.glassfish.hk2:hk2-utils:jar:4.0.0-M3:compile -- module org.glassfish.hk2.utilities [auto]
+[INFO]    org.glassfish.hk2:hk2-api:jar:4.0.0-M3:compile -- module org.glassfish.hk2.api [auto]
+[INFO]    org.glassfish.hk2:hk2-core:jar:4.0.0-M3:compile -- module org.glassfish.hk2.core [auto]
+[INFO]    org.glassfish.hk2:hk2-runlevel:jar:4.0.0-M3:compile -- module org.glassfish.hk2.runlevel [auto]
+[INFO]    org.glassfish.hk2:class-model:jar:4.0.0-M3:compile -- module org.glassfish.hk2.classmodel [auto]
+[INFO]    org.ow2.asm:asm-commons:jar:9.7:compile -- module org.objectweb.asm.commons
+[INFO]    org.glassfish.hk2:spring-bridge:jar:4.0.0-M3:compile -- module org.glassfish.hk2.spring.bridge [auto]
+[INFO]    org.glassfish.jersey.media:jersey-media-json-jackson:jar:4.0.2:compile -- module org.glassfish.jersey.media.json.jackson
+[INFO]    org.glassfish.jersey.ext:jersey-entity-filtering:jar:4.0.2:compile -- module org.glassfish.jersey.ext.entity.filtering
+[INFO]    com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations:jar:2.21.5:compile -- module com.fasterxml.jackson.module.jakarta.xmlbind
+[INFO]    org.glassfish.jersey.ext:jersey-bean-validation:jar:4.0.2:compile -- module org.glassfish.jersey.ext.bean.validation
+[INFO]    jakarta.inject:jakarta.inject-api:jar:2.0.1:compile -- module jakarta.inject
+[INFO]    org.glassfish.jersey.core:jersey-common:jar:4.0.2:compile -- module org.glassfish.jersey.core.common
+[INFO]    org.glassfish.hk2:osgi-resource-locator:jar:3.0.0:compile -- module osgi.resource.locator (auto)
+[INFO]    jakarta.validation:jakarta.validation-api:jar:3.1.1:compile -- module jakarta.validation
+[INFO]    org.hibernate.validator:hibernate-validator:jar:9.1.3.Final:compile -- module org.hibernate.validator
+[INFO]    com.fasterxml:classmate:jar:1.7.3:compile -- module com.fasterxml.classmate
+[INFO]    org.jboss.logging:jboss-logging:jar:3.6.3.Final:compile -- module org.jboss.logging
+[INFO]    org.glassfish.expressly:expressly:jar:5.0.0:compile -- module org.glassfish.expressly [auto]
+[INFO]    jakarta.ws.rs:jakarta.ws.rs-api:jar:4.0.0:compile -- module jakarta.ws.rs
+[INFO]    org.springframework.boot:spring-boot-starter-data-jpa:jar:4.1.1:compile -- module spring.boot.starter.data.jpa [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-jdbc:jar:4.1.1:compile -- module spring.boot.starter.jdbc [auto]
+[INFO]    com.zaxxer:HikariCP:jar:7.0.2:compile -- module com.zaxxer.hikari
+[INFO]    org.springframework.boot:spring-boot-data-jpa:jar:4.1.1:compile -- module spring.boot.data.jpa [auto]
+[INFO]    org.springframework.boot:spring-boot-data-commons:jar:4.1.1:compile -- module spring.boot.data.commons [auto]
+[INFO]    org.springframework.boot:spring-boot-persistence:jar:4.1.1:compile -- module spring.boot.persistence [auto]
+[INFO]    org.springframework.data:spring-data-commons:jar:4.1.1:compile -- module spring.data.commons [auto]
+[INFO]    org.springframework.boot:spring-boot-hibernate:jar:4.1.1:compile -- module spring.boot.hibernate [auto]
+[INFO]    org.springframework.boot:spring-boot-jpa:jar:4.1.1:compile -- module spring.boot.jpa [auto]
+[INFO]    jakarta.persistence:jakarta.persistence-api:jar:3.2.0:compile -- module jakarta.persistence
+[INFO]    org.hibernate.orm:hibernate-core:jar:7.4.5.Final:compile -- module org.hibernate.orm.core [auto]
+[INFO]    jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile -- module jakarta.transaction
+[INFO]    org.hibernate.models:hibernate-models:jar:1.1.1:runtime -- module org.hibernate.models [auto]
+[INFO]    org.glassfish.jaxb:jaxb-runtime:jar:4.0.9:runtime -- module org.glassfish.jaxb.runtime
+[INFO]    org.glassfish.jaxb:jaxb-core:jar:4.0.9:runtime -- module org.glassfish.jaxb.core
+[INFO]    org.eclipse.angus:angus-activation:jar:2.0.3:runtime -- module org.eclipse.angus.activation
+[INFO]    org.glassfish.jaxb:txw2:jar:4.0.9:runtime -- module com.sun.xml.txw2
+[INFO]    com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime -- module com.sun.istack.runtime
+[INFO]    org.springframework:spring-orm:jar:7.0.9:compile -- module spring.orm [auto]
+[INFO]    org.springframework.data:spring-data-jpa:jar:4.1.1:compile -- module spring.data.jpa [auto]
+[INFO]    org.springframework:spring-tx:jar:7.0.9:compile -- module spring.tx [auto]
+[INFO]    org.antlr:antlr4-runtime:jar:4.13.2:compile -- module org.antlr.antlr4.runtime [auto]
+[INFO]    org.springframework:spring-aspects:jar:7.0.9:compile -- module spring.aspects [auto]
+[INFO]    org.aspectj:aspectjweaver:jar:1.9.25.1:compile -- module org.aspectj.weaver [auto]
+[INFO]    org.springframework.boot:spring-boot-jdbc:jar:4.1.1:compile -- module spring.boot.jdbc [auto]
+[INFO]    org.springframework.boot:spring-boot-sql:jar:4.1.1:compile -- module spring.boot.sql [auto]
+[INFO]    org.springframework.boot:spring-boot-transaction:jar:4.1.1:compile -- module spring.boot.transaction [auto]
+[INFO]    org.springframework:spring-jdbc:jar:7.0.9:compile -- module spring.jdbc [auto]
+[INFO]    com.h2database:h2:jar:2.4.240:runtime -- module com.h2database [auto]
+[INFO]    org.springframework.boot:spring-boot-h2console:jar:4.1.1:compile -- module spring.boot.h2console [auto]
+[INFO]    org.springframework.boot:spring-boot:jar:4.1.1:compile -- module spring.boot [auto]
+[INFO]    org.springframework:spring-context:jar:7.0.9:compile -- module spring.context [auto]
+[INFO]    org.springframework.boot:spring-boot-starter-test:jar:4.1.1:test -- module spring.boot.starter.test [auto]
+[INFO]    org.springframework.boot:spring-boot-test:jar:4.1.1:test -- module spring.boot.test [auto]
+[INFO]    org.springframework.boot:spring-boot-test-autoconfigure:jar:4.1.1:test -- module spring.boot.test.autoconfigure [auto]
+[INFO]    com.jayway.jsonpath:json-path:jar:2.10.0:test -- module json.path [auto]
+[INFO]    org.slf4j:slf4j-api:jar:2.0.18:compile -- module org.slf4j
+[INFO]    jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.5:compile -- module jakarta.xml.bind
+[INFO]    jakarta.activation:jakarta.activation-api:jar:2.1.4:compile -- module jakarta.activation
+[INFO]    net.minidev:json-smart:jar:2.6.0:test -- module json.smart (auto)
+[INFO]    net.minidev:accessors-smart:jar:2.6.0:test -- module accessors.smart (auto)
+[INFO]    org.ow2.asm:asm:jar:9.7.1:test -- module org.objectweb.asm
+[INFO]    org.assertj:assertj-core:jar:3.27.7:test -- module org.assertj.core
+[INFO]    net.bytebuddy:byte-buddy:jar:1.18.11:runtime -- module net.bytebuddy
+[INFO]    org.awaitility:awaitility:jar:4.3.0:test -- module awaitility (auto)
+[INFO]    org.hamcrest:hamcrest:jar:3.0:test -- module org.hamcrest [auto]
+[INFO]    org.junit.jupiter:junit-jupiter:jar:6.0.3:test -- module org.junit.jupiter
+[INFO]    org.junit.jupiter:junit-jupiter-api:jar:6.0.3:test -- module org.junit.jupiter.api
+[INFO]    org.opentest4j:opentest4j:jar:1.3.0:test -- module org.opentest4j
+[INFO]    org.junit.platform:junit-platform-commons:jar:6.0.3:test -- module org.junit.platform.commons
+[INFO]    org.apiguardian:apiguardian-api:jar:1.1.2:test -- module org.apiguardian.api
+[INFO]    org.junit.jupiter:junit-jupiter-params:jar:6.0.3:test -- module org.junit.jupiter.params
+[INFO]    org.junit.jupiter:junit-jupiter-engine:jar:6.0.3:test -- module org.junit.jupiter.engine
+[INFO]    org.junit.platform:junit-platform-engine:jar:6.0.3:test -- module org.junit.platform.engine
+[INFO]    org.mockito:mockito-core:jar:5.23.0:test -- module org.mockito
+[INFO]    net.bytebuddy:byte-buddy-agent:jar:1.18.11:test -- module net.bytebuddy.agent
+[INFO]    org.objenesis:objenesis:jar:3.3:test -- module org.objenesis [auto]
+[INFO]    org.mockito:mockito-junit-jupiter:jar:5.23.0:test -- module org.mockito.junit.jupiter
+[INFO]    org.skyscreamer:jsonassert:jar:1.5.3:test -- module jsonassert (auto)
+[INFO]    com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test -- module android.json (auto)
+[INFO]    org.springframework:spring-core:jar:7.0.9:compile -- module spring.core [auto]
+[INFO]    commons-logging:commons-logging:jar:1.3.6:compile -- module org.apache.commons.logging
+[INFO]    org.jspecify:jspecify:jar:1.0.1:compile -- module org.jspecify
+[INFO]    org.springframework:spring-test:jar:7.0.9:test -- module spring.test [auto]
+[INFO]    org.xmlunit:xmlunit-core:jar:2.11.0:test -- module org.xmlunit [auto]
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.248 s
+[INFO] Finished at: 2026-10-14T10:07:56+02:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< projet.microservices:entreprise >-------------------
+[INFO] Building entreprise 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.5.0:clean (default-clean) @ entreprise ---
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ entreprise ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ entreprise ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 14 source files with javac [debug parameters release 17] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.847 s
+[INFO] Finished at: 2026-10-14T10:08:20+02:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< projet.microservices:entreprise >-------------------
+[INFO] Building entreprise 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ entreprise ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ entreprise ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ entreprise ---
+[INFO] skip non existing resourceDirectory C:\Users\samue\OneDrive\Documents\IMT\SISC\TP CI_CD\devlog_project\entreprise\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ entreprise ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug parameters release 17] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ entreprise ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running projet.microservices.entreprise.EntrepriseApplicationTests
+10:08:44.868 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [projet.microservices.entreprise.EntrepriseApplicationTests]: EntrepriseApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:08:45.187 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration projet.microservices.entreprise.EntrepriseApplication for test class projet.microservices.entreprise.EntrepriseApplicationTests
+10:08:45.465 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [projet.microservices.entreprise.EntrepriseApplicationTests]: EntrepriseApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:08:45.469 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration projet.microservices.entreprise.EntrepriseApplication for test class projet.microservices.entreprise.EntrepriseApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.1.1)
+
+2026-10-14T10:08:46.634+02:00  INFO 25264 --- [entreprise] [           main] p.m.e.EntrepriseApplicationTests         : Starting EntrepriseApplicationTests using Java 23 with PID 25264 (started by samue in C:\Users\samue\OneDrive\Documents\IMT\SISC\TP CI_CD\devlog_project\entreprise)
+2026-10-14T10:08:46.644+02:00  INFO 25264 --- [entreprise] [           main] p.m.e.EntrepriseApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2026-10-14T10:08:49.388+02:00  INFO 25264 --- [entreprise] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-14T10:08:49.587+02:00  INFO 25264 --- [entreprise] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 166 ms. Found 1 JPA repository interface.
+2026-10-14T10:08:51.258+02:00  INFO 25264 --- [entreprise] [           main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-14T10:08:51.574+02:00  INFO 25264 --- [entreprise] [           main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.5.Final
+2026-10-14T10:08:54.371+02:00  INFO 25264 --- [entreprise] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-14T10:08:54.513+02:00  INFO 25264 --- [entreprise] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-14T10:08:57.019+02:00  INFO 25264 --- [entreprise] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./entreprise user=SA
+2026-10-14T10:08:57.019+02:00  INFO 25264 --- [entreprise] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-14T10:08:57.204+02:00  WARN 25264 --- [entreprise] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-14T10:08:57.262+02:00  INFO 25264 --- [entreprise] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:file:./entreprise]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: ENTREPRISE/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-14T10:09:03.732+02:00  INFO 25264 --- [entreprise] [           main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-14T10:09:03.805+02:00  INFO 25264 --- [entreprise] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-14T10:09:06.348+02:00  INFO 25264 --- [entreprise] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-14T10:09:07.438+02:00  WARN 25264 --- [entreprise] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-14T10:09:11.559+02:00  INFO 25264 --- [entreprise] [           main] o.s.b.h.a.H2ConsoleAutoConfiguration     : H2 console available at '/h2'. Database available at 'jdbc:h2:file:./entreprise'
+2026-10-14T10:09:11.851+02:00  INFO 25264 --- [entreprise] [           main] p.m.e.EntrepriseApplicationTests         : Started EntrepriseApplicationTests in 26.214 seconds (process running for 28.971)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\samue\.m2\repository\net\bytebuddy\byte-buddy-agent\1.18.11\byte-buddy-agent-1.18.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+Java HotSpot(TM) 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.72 s -- in projet.microservices.entreprise.EntrepriseApplicationTests
+[INFO] Running projet.microservices.entreprise.presentation.EntrepriseMapperTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 s -- in projet.microservices.entreprise.presentation.EntrepriseMapperTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.298 s
+[INFO] Finished at: 2026-10-14T10:09:14+02:00
+[INFO] ------------------------------------------------------------------------
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< projet.microservices:entreprise >-------------------
+[INFO] Building entreprise 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.5.0:resources (default-resources) @ entreprise ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ entreprise ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.5.0:testResources (default-testResources) @ entreprise ---
+[INFO] skip non existing resourceDirectory C:\Users\samue\OneDrive\Documents\IMT\SISC\TP CI_CD\devlog_project\entreprise\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ entreprise ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.6:test (default-test) @ entreprise ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.5.1:jar (default-jar) @ entreprise ---
+[INFO] Building jar: C:\Users\samue\OneDrive\Documents\IMT\SISC\TP CI_CD\devlog_project\entreprise\target\entreprise-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot:4.1.1:repackage (repackage) @ entreprise ---
+[INFO] Replacing main artifact C:\Users\samue\OneDrive\Documents\IMT\SISC\TP CI_CD\devlog_project\entreprise\target\entreprise-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\samue\OneDrive\Documents\IMT\SISC\TP CI_CD\devlog_project\entreprise\target\entreprise-0.0.1-SNAPSHOT.jar.original
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.720 s
+[INFO] Finished at: 2026-10-14T10:09:35+02:00
+[INFO] ------------------------------------------------------------------------
